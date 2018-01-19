@@ -1,0 +1,239 @@
+body {
+  font-family: garamond, sans-serif;
+  margin: 0 auto;
+  background: #CEE3F6;
+}
+div {
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+}
+.options {
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  position: relative;
+  margin: 30px 40px 20px 40px;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  text-align: center;
+  font-size: 135px;
+  color: white;
+  margin: 45px 0 0 0;
+}
+h2 {
+  text-align: center;
+  color: white;
+  font-family: 'garamond';
+  margin: 8px 0 0 0;
+}
+h3 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin: 20px 0 40px 0;
+}
+h4 {
+  font-size: 20px;
+  color: black;
+  margin-top: 40px;
+  margin-left:120px;
+  margin-right:120px;
+  font-family: 'garamond';
+}
+p {
+  margin-left: 120px;
+  margin-right: 140px;
+  font-size: 18px;
+}
+p1 {
+  color: black;
+  /*background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));*/
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify; 
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  height: 20px;
+  margin-top: 100px;
+}
+p2 {
+  font-size: 18px;
+  text-align: center;
+}
+h5 {
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  /*margin-left: 160px;
+  margin-right: 160px;*/
+  padding-left: 180px;
+  padding-right: 180px;
+}
+
+
+#Title {
+  position: absolute;
+  top: 0px;
+  background: rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+#snow {
+  background-image: url("snow.png");
+  position: relative;
+  background-size: 8%;
+  background-repeat: no-repeat;
+  background-position: center;
+  clip: rect(0px,60px,60px,0px);
+  height: 70px;
+  bottom: 10px;
+  margin-top: 50px;
+}
+#snowpublisher {
+  background-image: url("snow.png");
+  position: relative;
+  background-size: 18%;
+  background-repeat: no-repeat;
+  background-position: center;
+  clip: rect(0px,60px,60px,0px);
+  height: 80px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#process {
+  background-image: url("process.png");
+  position: relative;
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 40px;
+  height: 400px;
+   opacity: 0.7;
+    filter: alpha(opacity=50);
+}
+
+#contactus {
+  background-image: url("contactus.png");
+  position: relative;
+  background-size: 36%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 40px;
+   opacity: 0.8;
+    filter: alpha(opacity=50);
+}
+
+ol.list-style{
+  margin-left: 170px;
+  margin-right: 200px;
+  list-style-type: decimal;
+  font-size: 18px;
+}
+ol.list-style2{
+  margin-left: 170px;
+  margin-right: 400px;
+  list-style-type: decimal;
+  font-size: 18px;
+}
+
+small {
+  opacity: 0;
+}
+a {
+   color: white;
+  }
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: #bbbbbb;
+}
+ul.header{
+  list-style: none;
+  padding: 15px;
+  background: rgba(0,0,0,0.3);
+  margin: 0;
+  margin-bottom: 30px;
+  text-align: center;
+ }
+li.inline {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 10px 0px 10px;
+ }
+.show-description p {
+  height: 150px;
+}
+.show-description small {
+  opacity: 1;
+}
+.copy {
+  background-image: url("copy.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat:no-repeat;
+    opacity: 0.7;
+    filter: alpha(opacity=50);
+}
+.book {
+  background-image: url("books.png");
+  background-size: contain;
+  background-repeat:no-repeat;
+  background-position: center;
+  margin-left: 100px;
+  margin-bottom: 40px;
+  opacity: 0.7;
+    filter: alpha(opacity=50);
+}
+.process {
+  background-image: url("works.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+   opacity: 0.8;
+    filter: alpha(opacity=50);
+}
+.contract {
+  background-image: url("contract.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 100px;
+  margin-bottom: 60px;
+   opacity: 0.7;
+    filter: alpha(opacity=50);
+}
+.social {
+  background-image: url("social1.png");
+  background-size: contain;
+  background-repeat:no-repeat;
+  background-position: center;
+   opacity: 0.7;
+    filter: alpha(opacity=50);
+}
+.marketing {
+  background-image: url("marketing.png");
+  background-size: contain;
+  background-repeat:no-repeat;
+  background-position: center;
+   opacity: 0.7;
+    filter: alpha(opacity=50);
+}
+.price {
+  float: right;
+}
+
+img {
+  background-size: contain;
+}
